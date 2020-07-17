@@ -1,0 +1,30 @@
+.content-title {
+	max-width: 800px;
+	margin: 0 auto 48px;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 78px;
+	text-align: center;
+	color: #FFFFFF;
+	text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+	.content-title {
+		max-width: 550px;
+		font-size: 42px;
+		line-height: 46px;
+	}
+}
+
+@media screen and (max-width: 449px) {
+	.content-title {
+		max-width: 350px;
+		font-size: 32px;
+		line-height: 35px;
+		margin: 0 auto 16px;
+		padding: 0;
+	}
+}

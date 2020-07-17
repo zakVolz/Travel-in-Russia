@@ -1,0 +1,23 @@
+@import url('__link/header__link.css');
+
+.header__lang {
+	font-size: 24px;
+	line-height: 23px;
+	transition: opacity .7s ease;
+	margin-right: 18px;
+}
+
+.header__lang:hover {
+	opacity: .7;
+}
+
+.header__lang:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 450px) {
+	.header__lang {
+		font-size: 18px;
+		line-height: 17px;
+	}
+}

@@ -1,0 +1,25 @@
+@import url('__nav/footer__nav.css');
+@import url('__copyright/footer__copyright.css');
+
+.footer {
+	font-family: 'Inter', Arial, sans-serif;
+	max-width: 1184px;
+	padding: 0 48px 48px;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 520px) and (max-width: 768px) {
+	.footer {
+		padding: 0 24px 26px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.footer {
+		flex-direction: column;
+		padding: 0 16px 26px;
+		align-items: flex-start;
+	}
+}

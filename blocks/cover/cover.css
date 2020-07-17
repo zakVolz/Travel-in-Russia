@@ -1,0 +1,23 @@
+@import url('__link/cover__link.css');
+
+.cover {
+	font-family: 'Inter', Arial, sans-serif;
+	position: relative;
+	max-width: 1184px;
+	margin: 0 auto 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.cover {
+		margin: 0 auto 102px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.cover {
+		margin: 0 auto 64px;
+	}
+}

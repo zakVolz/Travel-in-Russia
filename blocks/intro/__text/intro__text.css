@@ -1,0 +1,16 @@
+@import url('__item/intro__item.css');
+
+.intro__text {
+	font-size: 13px;
+	line-height: 20px;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+@media screen and (max-width: 449px) {
+	.intro__text {
+		font-size: 12px;
+		line-height: 19px;
+	}	
+}

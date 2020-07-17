@@ -1,0 +1,9 @@
+@import url('__lang/header__lang.css');
+@import url('__lang/_type/header__lang_type_select.css');
+
+.header__change {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}

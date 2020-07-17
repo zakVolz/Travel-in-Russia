@@ -1,0 +1,23 @@
+@import url('__block-text/intro__block-text.css');
+@import url('__text/intro__text.css');
+@import url('__title/intro__title.css');
+
+.intro {
+	font-family: 'Inter', Arial, sans-serif;
+	max-width: 984px;
+	margin: 0 auto;
+	padding: 0 48px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+	.intro {
+		max-width: 720px;
+		padding: 0 24px;
+	}
+}
+
+@media screen and (max-width: 449px) {
+	.intro {
+		padding: 0 16px;
+	}
+}
